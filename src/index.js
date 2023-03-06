@@ -1,6 +1,7 @@
 const express = require("express");
 const db = require("./db");
 const routerCategories = require("./routes/categories");
+const routerUser = require("./routes/users");
 
 const app = express();
 app.use(express.json());
@@ -12,6 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/categories", routerCategories);
+app.use("/users", routerUser);
 
 app.listen(port, () => {
   db.connect()
