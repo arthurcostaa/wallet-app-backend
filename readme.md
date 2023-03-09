@@ -44,6 +44,7 @@ docker run \
 4. Create a .env file following the example:
 
 ```
+PORT=3000
 DB_USER=docker
 DB_PASSWORD=docker
 DB_NAME=finances
