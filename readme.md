@@ -45,12 +45,6 @@ docker run \
 
 ```
 PORT=3000
-You can use for database
-DB_URL=your_db_url
-
-or
-
-DB_URL=
 DB_USER=docker
 DB_PASSWORD=docker
 DB_NAME=finances
